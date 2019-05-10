@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   php-fpm:
-    container_name: php-fpm72
+    #container_name: php-fpm72
     build: ./php/
     ports:
       - "9002:9000"
@@ -17,7 +17,7 @@ services:
     restart: always
     command: php-fpm
   mysql-db:
-      container_name: mysql57
+      #container_name: mysql57
       build: ./mysql
       ports:
         - "3308:3306"
@@ -34,7 +34,7 @@ services:
       command: "--character-set-server=utf8"
 
   redis-db:
-      container_name: redis32
+      #container_name: redis32
       build: ./redis
       ports:
         - "6381:6379"
