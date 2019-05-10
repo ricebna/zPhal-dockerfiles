@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   php-fpm:
-    container_name: php-fpm73
+    container_name: php-fpm72
     build: ./php/
     ports:
       - "9002:9000"
