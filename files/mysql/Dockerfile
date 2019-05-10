@@ -1,5 +1,5 @@
 FROM mysql:5.7
-LABEL maintainer="gzp@goozp.com"
+LABEL maintainer="cwhphper@163.com"
 
 # set timezome
 ENV TZ=Asia/Shanghai
